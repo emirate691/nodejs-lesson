@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-lesson",
+  "version": "1.0.0",
+  "description": "lesson nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emirate691/nodejs-lesson.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Mysql"
+  ],
+  "author": "suraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emirate691/nodejs-lesson/issues"
+  },
+  "homepage": "https://github.com/emirate691/nodejs-lesson#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
